@@ -21,16 +21,14 @@ body {
     background-color: var(--VeryDarkBlue);
 }
 
-main {
+.container {
+    display: column;
+    flex-wrap: wrap;
+    background-color: var(--SoftViolet);
+    border-radius: 0.5rem;
     width: 60rem;
     height: 20rem;
     margin: 6rem 13rem;
-}
-
-.container {
-    display: flex;
-    background-color: var(--SoftViolet);
-    border-radius: 0.5rem;
 }
 
 .text {
@@ -40,7 +38,10 @@ main {
     font-family: var(--inter);
 }
 
-
+.img {
+    position: relative;
+    top: 5rem;
+}
 
 
 
