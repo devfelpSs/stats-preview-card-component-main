@@ -11,12 +11,24 @@
     --White: hsl(0, 0%, 100%);
     --Slightly: hsla(0, 0%, 100%, 0.75);
     --SlightlyWhite: hsla(0, 0%, 100%, 0.6);
+
     --inter: 'Inter',sans-serif;
     --lexend: 'Lexend Deca',sans-serif;
 }
 
 body {
-    background-color: ;
+    background-color: var(--VeryDarkBlue);
+}
+
+main {
+    width: 120vh;
+    height: 55vh;
+    margin: 15vh 35vh;
+}
+
+.container {
+    display: flex;
+    background-color: var(--SoftViolet);
 }
 
 
