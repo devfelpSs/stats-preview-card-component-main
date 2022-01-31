@@ -19,35 +19,57 @@
 body {
     background-color: var(--VeryDarkBlue);
     height: 100%;
+    align-items: center;
+    align-content: center;
 }
 
 .container {
-    flex-wrap: wrap;
+    position: absolute;
     background-color: var(--DarkDesaturatedBlue);
-    border-radius: 0.5rem;
-    width: 32rem;
-    height: 24rem;
+    border-radius: 1vh;
+    width: 75vh;
+    height: 60vh;
+    margin: 20vh 35vh;
+}
+
+.photo {
+    position: relative;
+    bottom: 51vh;
+    left: 65vh;
+    width: 65vh;
+    height: 60vh;
+    color: var(--SoftViolet);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    color: var(--SoftViolet);
+    border-bottom-right-radius: 1vh;
+    border-top-right-radius: 1vh;
 }
 
 .text {
-    display: column;
-    padding: 4rem 3rem 0rem 4rem;
+    padding-top: 10vh;
+    padding-left: 9vh;
     font-family: var(--inter);
+    width: 75vh;
+    height: 58.2vh;
 }
 
 .title {
-    font-size: 2rem;
-    padding-bottom: 1.8rem;
+    font-size: 5vh;
+    padding-bottom: 4vh;
     color: var(--White);
 }
 
 .spamlol {
-    color:hsl(277, 64%, 61%);
+    color: var(--SoftViolet);
 }
 
 .mainText {
-    font-size: .9rem;
-    padding-bottom: 3.5rem;
+    font-size: 2vh;
+    padding-bottom: 10vh;
     color: var(--SlightlyWhite);
     line-height: 1.5;
 }
@@ -59,6 +81,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr 1fr 1fr;
     font-style: var(--lexend);
+    width: 65vh;
 }
 
 #item-1 {
@@ -67,7 +90,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     color: var(--White);
-    font-size: 1.3rem;
+    font-size: 3vh;
     font-weight: 600;
 }
 
@@ -78,7 +101,7 @@ body {
     grid-row-end: 3;
     color: var(--SlightlyWhite);
     text-transform: uppercase;
-    font-size: .7rem;
+    font-size: 1.7vh;
 }
 
 #item-3 {
@@ -87,7 +110,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     color: var(--White);
-    font-size: 1.3rem;
+    font-size: 3vh;
     font-weight: 600;
 }
 
@@ -98,7 +121,7 @@ body {
     grid-row-end: 3;
     color: var(--SlightlyWhite);
     text-transform: uppercase;
-    font-size: .7rem;
+    font-size: 1.7vh;
 }
 
 #item-5 {
@@ -107,7 +130,7 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     color: var(--White);
-    font-size: 1.3rem;
+    font-size: 3vh;
     font-weight: 600;
 }
 
@@ -118,16 +141,9 @@ body {
     grid-row-end: 3;
     color: var(--SlightlyWhite);
     text-transform: uppercase;
-    font-size: .7rem;
+    font-size: 1.7vh;
 }
 
-.img {
-    position: relative;
-    bottom: 22rem;
-    left: 30rem;
-    width: 250px;
-    height: 250px;
-}
 
 /*.attribution {
     font-size: 11px;
