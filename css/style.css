@@ -93,7 +93,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr 1fr 1fr;
     font-style: var(--lexend);
-    width: 65vh;
+    width: 60vh;
 }
 
 #item-1 {
