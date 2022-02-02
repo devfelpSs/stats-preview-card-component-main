@@ -157,6 +157,65 @@ body {
     font-size: 1.7vh;
 }
 
+@media (max-width: 425px) {
+    .container {
+        position: relative;
+        background-color: var(--DarkDesaturatedBlue);
+        border-radius: 1vh;
+        width: 115vh;
+        height: 195vh;
+        left: 2vh;
+        bottom: 0vh;
+    }
+    .title {
+        font-size: 8vh;
+        padding-bottom: 4vh;
+        color: var(--White);
+        position: relative;
+        top: 66vh;
+        left: 9vh;
+    }
+    
+    .mainText {
+        font-size: 5vh;
+        padding-bottom: 10vh;
+        color: var(--SlightlyWhite);
+        line-height: 1.5;
+        position: relative;
+        top: 75vh;
+        left: 8vh;
+        text-align: center;
+    }
+
+    .photo {
+        position: absolute;
+        top: 10;
+        left: 33vh;
+        width: 65vh;
+        height: 60vh;
+        color: var(--SoftViolet);
+    }
+    
+    .img {
+        width: 100%;
+        height: 100%;
+        color: var(--SoftViolet);
+        border-bottom-right-radius: 1vh;
+        border-top-right-radius: 1vh;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row: 1fr 1fr 1fr;
+        font-style: var(--lexend);
+        width: 60vh;
+        position: relative;
+        top: 83vh;
+        left: 24vh;
+    }
+}
+
 
 /*.attribution {
     font-size: 11px;
