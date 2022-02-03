@@ -178,10 +178,10 @@ body {
     .glass {
         background-color: hsl(277, 74%, 46%);
         position: absolute;
-        left: 73vh;
+        left: 0;
         top: 0;
-        width: 65vh;
-        height: 60vh;
+        width: 50vh;
+        height: 38vh;
         opacity: 0.5;
         border-bottom-right-radius: 1vh;
         border-top-right-radius: 1vh;
@@ -216,13 +216,11 @@ body {
         color: var(--SlightlyWhite);
         line-height: 1.5;
         position: relative;
-        top: 38vh;
+        top: 35vh;
         left: -27vh;
         text-align: center;
     }
     
-
-
     .grid {
         display: grid;
         grid-template-columns: 1fr;
