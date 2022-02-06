@@ -18,7 +18,6 @@
 
 body {
     background-color: var(--VeryDarkBlue);
-    height: 100%;
     align-items: center;
     align-content: center;
 }
@@ -87,7 +86,6 @@ body {
 }
 
 
-
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -107,6 +105,7 @@ body {
     padding-bottom: 1vh;
 }
 
+
 #item-2 {
     grid-column-start: 1;
     grid-column-end: 1;
@@ -117,6 +116,7 @@ body {
     font-size: 1.7vh;
 }
 
+
 #item-3 {
     grid-column-start: 2;
     grid-column-end: 2;
@@ -126,6 +126,8 @@ body {
     font-size: 3vh;
     font-weight: 600;
 }
+
+
 
 #item-4 {
     grid-column-start: 2;
@@ -164,13 +166,14 @@ body {
         align-items: center;
         box-sizing: border-box;
         flex-direction: column;
-        left: 7vh;
+        position: relative;
+        left: -38vh;
         height: 140vh;
         justify-content: center;
         background-color: var(--DarkDesaturatedBlue);
         border-radius: 1vh;
-        width: 66vh;
-        margin: 16vh 0;
+        width: 57vh;
+        margin: 7vh 43vh;
     }
 
     .text {
@@ -182,24 +185,25 @@ body {
     }
 
     .title {
-        font-size: 4vh;
+        font-size: 4.5vh;
         padding-bottom: 4vh;
         color: var(--White);
         position: relative;
         top: 8vh;
-        right: 10vh;
+        right: 14vh;
         text-align: center;
     }
 
     .mainText {
-        font-size: 2vh;
+        font-size: 2.5vh;
         padding-bottom: 10vh;
         color: var(--SlightlyWhite);
         line-height: 1.5;
         position: relative;
         top: 11vh;
-        right: 10vh;
+        left: 7vh;
         text-align: center;
+        width: 41vh;
     }
 
     .photo {
@@ -223,7 +227,7 @@ body {
         position: absolute;
         left: 0;
         top: 0;
-        width: 66vh;
+        width: 57vh;
         height: 38vh;
         opacity: 0.5;
         border-bottom-right-radius: 1vh;
@@ -233,16 +237,17 @@ body {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         font-style: var(--lexend);
         width: 32vh;
         position: relative;
         top: 9vh;
-        left: 16vh;
+        left: 13vh;
         text-align: center;
         align-items: center;
         align-content: center;
         justify-content: center;
+        grid-row-gap: 1.5vh;
     }
 
     #item-1 {
@@ -251,9 +256,15 @@ body {
         grid-row-start: 1;
         grid-row-end: 2;
         color: var(--White);
-        font-size: 3vh;
+        font-size: 4vh;
         font-weight: 600;
-        padding-bottom: 1vh;
+    }
+    
+    .comp {
+        color: var(--SlightlyWhite);
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 2.5vh;
     }
     
     #item-2 {
@@ -261,51 +272,34 @@ body {
         grid-column-end: 1;
         grid-row-start: 2;
         grid-row-end: 3;
+        color: var(--White);
+        font-size: 4vh;
+        font-weight: 600;
+    }
+    .tmp {
         color: var(--SlightlyWhite);
+        font-weight: 200;
+        font-size: 2.5vh;
         text-transform: uppercase;
-        font-size: 1.7vh;
     }
     
     #item-3 {
-        column-gap: 1vh;
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 3;
         grid-row-end: 4;
         color: var(--White);
-        font-size: 3vh;
+        font-size: 4vh;
         font-weight: 600;
-    }
-    
-    #item-4 {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 4;
-        grid-row-end: 5;
-        color: var(--SlightlyWhite);
         text-transform: uppercase;
-        font-size: 1.7vh;
     }
-    
-    #item-5 {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 5;
-        grid-row-end: 6;
-        color: var(--White);
-        font-size: 3vh;
-        font-weight: 600;
-    }
-    
-    #item-6 {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 6;
-        grid-row-end: 7;
+
+    .query {
         color: var(--SlightlyWhite);
-        text-transform: uppercase;
-        font-size: 1.7vh;
+        font-weight: 200;
+        font-size: 2.5vh;
     }
+    
 }
 
 
