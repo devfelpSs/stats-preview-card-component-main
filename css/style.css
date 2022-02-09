@@ -289,13 +289,19 @@ body {
 }
 
 
-/*.attribution {
-    font-size: 11px;
+.attribution {
+    font-size: 12px;
     text-align: center;
+    color: var(--White);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(228, 89%, 89%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
 }
 
 
